@@ -1,7 +1,43 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Your Name - Portfolio</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .button-container   
+ {
+      display: flex;
+      flex-direction: column;   
+
+    }
+
+    button {
+      margin: 10px;
+      padding: 15px 30px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World (Polina)</h1>
-<p>I'm hosted with GitHub Pages. Are you ready?</p>
+  <div class="container">
+    <div class="button-container">
+      <button onclick="window.location.href='index.html'">Main Page</button>
+      <button onclick="window.location.href='bio.html'">Bio</button>
+      <button onclick="window.location.href='cv.html'">CV</button>
+      <button onclick="window.location.href='works.html'">Works</button>
+    </div>
+  </div>
 </body>
 </html>
